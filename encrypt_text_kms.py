@@ -14,6 +14,9 @@
  * the License.
  *"""
 
+# This code has the objective of generate encrypted user, password and connection url
+# to be used in a Dataflow job.
+
 import base64
 from google.cloud import kms
 import argparse
