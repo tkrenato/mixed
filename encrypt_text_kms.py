@@ -17,6 +17,9 @@
 # This code has the objective of generate encrypted user, password and connection url
 # to be used in a Dataflow job.
 
+# Usage
+# $ python encrypt_text_kms.py project_id location_id key_ring crypto_key text_to_be_converted
+
 import base64
 from google.cloud import kms
 import argparse
